@@ -2,7 +2,7 @@ fixtures:
   symlinks:
     motd: "#{source_dir}"
   repositories:
-    apt: "git@github.com:aquinok/puppet.git"
+    apt: "https://github.com/aquinok/puppet_motd.git"
   forge_modules:
     stdlib:
       repo: "puppetlabs/stdlib"
