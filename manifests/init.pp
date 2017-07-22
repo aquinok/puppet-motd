@@ -1,4 +1,4 @@
-class motd ($set_motd = "WARNING: hiera data not set") {
+class puppet_motd ($set_motd = "WARNING: hiera data not set") {
   file { '/etc/motd':
     ensure  => file,
     content => $set_motd,
